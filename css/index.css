@@ -1,0 +1,34 @@
+@import url('./principal.css');
+
+/* Modificaciones al banner */
+.banner {
+    background-image: url('../src/image/banner1.png'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 94px); /* Resta el tamaño de la barra de navegación (56px) */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    text-align: left;
+    position: relative;
+}
+
+.banner div{
+    width: 30%;
+    margin-left: 5%;
+}
+.banner h1{
+    color: var(--color-azul);
+    font-weight: 800;
+    font-size: 60px;
+    filter: brightness(3);
+}
+
+.banner p{
+    font-size: 20px;
+}
+
+.banner a{
+    font-weight: 800;
+}
