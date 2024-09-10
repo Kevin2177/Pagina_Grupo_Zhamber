@@ -32,3 +32,83 @@
 .banner a{
     font-weight: 800;
 }
+
+
+/* DIV PRESENTACION*/
+.presentacion{
+    width: 50%;
+    margin: auto;
+    color: var(--color-gris);
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    font-family: var(--font-montserrat);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* DIV SERVICIOS URGENTES */
+.urgentes{
+    margin-bottom: 13vh
+}
+
+.urgentes h2{
+    font-weight: 800;
+    color: var(--color-azul);
+    font-size: 38px;
+}
+
+.cardt .front{
+    width: 231px;
+    height: 350px;
+    background-image: url('../src/image/servicios.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.cardt h3{
+    color: #fff;
+    top: 0;
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.cardt .back{
+    width: 231px;
+    height: 350px;
+    background-color: var(--color-gris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+    visibility: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.back p{
+    font-family: var(--font-montserrat);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.cardBox:hover .back{
+    visibility: visible;
+}
+
+
+.urgentes .btn{
+    margin-top: 5vh;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-weight: 600;
+}
+
+
+/* DIV NUESTRA HISTORIA*/
