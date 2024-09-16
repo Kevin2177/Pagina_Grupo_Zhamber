@@ -1,0 +1,136 @@
+@import url('./principal.css');
+
+/* DIV BANNER */
+.banner-contacto{
+    background-image: url('../src/image/banner1.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-contacto h2{
+    color: #fff;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* DIV FORMULARIO CONTACTO */
+.form-contacto{
+    margin-top: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.form-contacto h3{
+    color: var(--color-azul);
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.form-contacto .container{  
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    margin-top: 2.3rem;
+}
+
+.form-contacto form{
+    text-align: left;
+}
+
+.form-contacto .btn{
+    padding: 5px 10% 5px 10%;
+    font-weight: 800;
+}
+
+form input{
+    background-color: aqua;
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+
+.form-contacto textarea{
+    height: 130px;
+    color: var(--color-gris);
+}
+
+.texto-div{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.texto-div h4{
+    color: var(--color-azul);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.texto-div p{
+    color: var(--color-gris);
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+}
+
+.texto-div span{
+    color: var(--color-azul);
+}
+
+
+/* DIV COMO LLEGAR */
+.ubicacion{
+    margin-top: 3rem;
+}
+
+.ubicacion h3{
+    font-weight: 800;
+    color: var(--color-azul);
+    font-size: 35px;
+    margin-bottom:6vh;
+}
+
+
+/* DIV REDES SOCIALES */
+.redes{
+    background-image: url('../src/image/banner1_rojo.png'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.redes h2{
+    color: #fff;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.div-logo-redes{
+    background-color: #ffffff5c;
+    width:50px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.redes a{
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* ----------------------------- ADAPTACION ------------------ */
