@@ -134,3 +134,154 @@ form input{
 }
 
 /* ----------------------------- ADAPTACION ------------------ */
+@media only screen and (max-width: 1000px){
+    /* DIV COMO LLEGAR */
+    .ubicacion iframe{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    /* DIV BANNER */
+    .banner-contacto{
+        width: 100vw;
+        height: 250px;
+    }
+
+    .banner-contacto h2{
+        font-size: 30px;
+    }
+
+    /* DIV CONTACTO */
+    .form-contacto{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .form-contacto .container{
+        padding: 0 2%;
+    }
+
+    .form-contacto h3{
+        color: var(--color-azul);
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    .form-contacto .btn{
+        font-size: 14px;
+    }
+    
+    form input{
+       font-size: 14px;
+    }
+
+    .form-contacto svg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .texto-div h4{
+        font-size: 20px;
+    }
+    
+    .texto-div p{
+        font-size: 14px;
+    }
+    
+    .texto-div span{
+        font-size: 14px;
+    }
+
+    /* DIV COMO LLEGAR */
+    .ubicacion h3{
+        font-size: 30px;
+    }
+    .ubicacion iframe{
+        width: 500px;
+        height: 350px;
+    }
+
+    /* DIV REDES SOCIALES */
+    .redes{
+        height: 250px;
+    }
+
+    .redes h2{
+        font-size: 30px;
+    }
+    
+    .div-logo-redes{
+        width: 35px;
+        height: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .redes a{
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    /* DIV BANNER  */
+    .banner-contacto h2{
+        font-size: 25px;
+    }
+
+    /* DIV CONTACTO */
+    .form-contacto h3{
+        font-size: 25px;
+    }
+
+    .form-contacto form{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .form-contacto .btn{
+        font-size: 14px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .form-contacto form input{
+       font-size: 14px;
+    }
+
+    .form-contacto form textarea{
+        font-size: 14px;
+    }
+
+    .form-contacto .d-flex{
+        text-align: center;
+        justify-content: start;
+        margin-left: 30px;
+    }
+
+    /* DIV COMO LLEGAR */
+    .ubicacion h3{
+        font-size: 25px;
+    }
+    .ubicacion iframe{
+        width: 350px;
+        height: 200px;
+    }
+
+    /* DIV REDES SOCIALES */
+    .redes h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .div-logo-redes{
+        width: 25px;
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .redes a{
+        font-size: 12px;
+    }
+}
